@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wind Farm Layout Optimization Competition</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+  <script src="jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '.navbar'});
+  </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="http://www.irit.fr/wind-competition">Wind Farm Layout Competition</a>
+      </div>
+      <div id="navigation" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#APIs">APIs and Interfaces</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#prize">Prize</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="home">
+    <h1>Wind Farm Layout Optimization Competition</h1>
+  </div>
+
+  <div class="container">
+  <div class="col-md-3">
+    <img src="gecco.png" width="100%" height="auto" alt="GECCO 2014">
+  </div>
+
+  <div class="col-md-6">
+    <div class="row" id="intro">
+
+      <br/>
+
+      <p>Wind farm design has long been an application domain for evolutionary
+      learning and optimization due to the complexity of the design space, and
+      the discontinuities in the search space caused by the wake effects that
+      make it hard to optimize analytically. Now, with a need to increase the
+      renewable energy portfolio, existing wind farm layout approaches are
+      being tested under a variety of scenarios. Newer models to evaluate
+      layouts and newer constraints emerge, demanding more sophistication from
+      the algorithms.</p>
+
+      <p>We propose the following competition to enable a basis of comparison
+      for the existing algorithms and to encourage new ways to solve the wind
+      optimization problem. As part of the competition, we will provide layout
+      evaluators, wind field conditions, and baseline performances for the
+      different layout optimization problems. Competitors are expected to
+      contribute to an open source library for wind farm layout
+      optimization.</p>
+
+      <br />
+
+    </div>
+
+    <hr/>
+
+    <div id="goals" class="row titre">
+
+      <h2>Competition Goals</h2>
+
+      <p>This competition aims to bring more realistic problems to algorithm
+      developers and to create an open source library useful beyond the scope
+      of this competition. Historically, stochastic search has been the basis
+      of the best approaches to solving the wind farm layout optimization
+      problem, and as the industry continues to develop new models,
+      constraints, and situations, it is timely that we propose a method for
+      the integration of these two communities. This competition sets the stage
+      for that integration.</p>
+
+      <p>Here, we present an open source library for wind farm layout
+      optimization with an API built to support stochastic search algorithms.
+      We will showcase the state of the art algorithms on a platform where the
+      industry can bring their layout evaluation models. Furthermore, by
+      focusing the problem parameters, we will create mechanisms for the type
+      of uniform comparison that has so far been lacking in this field.</p>
+
+    </div>
+
+    <hr/>
+
+    <img src="LayoutProblem.png" width="100%" height="auto" class="centered">
+
+    <div id="APIs" class="row titre">
+
+      <h2>APIs and Interfaces</h2>
+
+      <p>We will provide an API in C++, Java, and MATLAB for optimization
+      algorithms that interacts with our open source wind layout evaluation
+      model, and a basic scenario consisting of sample wind data and wind farm
+      geography and obstacles. Different implementations of the wake model
+      besides the provided versions will have to be approved and validated in
+      advance. An automated submission system will allow competitors to see
+      their rank on a public leader board.</p>
+
+      <br/>
+
+      <p>More details will be posted here soon.</p>
+
+    </div>
+
+    <hr/>
+
+    <div id="details" class="row titre">
+
+      <h2>Competition Details</h2>
+
+      <p>The competition schedule is tentatively as follows:</p>
+
+      <p><b>March 15, 2014:</b> Provided layouts and wake model code online</p>
+      <p><b>April 1, 2014:</b> Automated submission system and live leader board online</p>
+      <p><b>June 1, 2014:</b> Final submission deadline</p>
+
+      <br/>
+
+      <p>The competition goal will be split in two tracks:</p>
+
+      <ul>
+
+        <li><b>Fixed number of turbines</b> - optimize the energy capture of a
+        layout by determining the placement of a fixed number of turbines.</li>
+
+        <li><b>Variable number of turbines</b> - place the most turbines in a
+        layout given a minimum energy capture requirement for each turbine.</li>
+
+      </ul>
+
+      <p>While the first problem is the most common in the wind farm layout
+      optimization community, the latter allows for a more realistic challenge.
+      The cost-benefit analysis of adding a turbine to a field, here simply
+      based on energy capture, could be expanded to include local constraints
+      such as price, cabling, and terrain.</p>
+
+      <br/>
+
+      <p>During the competition, contestants will be given:</p>
+
+      <ul>
+
+        <li>a set of 5 completely new scenarios and layouts to optimize,</li>
+
+        <li>5000 layout evaluations for the 5 layouts</li>
+
+      </ul>
+
+      <p>As the layout evaluation is usually the most computationally part of
+      the optimization, this allotment adds the challenge of computational
+      resource efficiency. Competitors must design effective stop criteria for
+      their algorithms.</p>
+
+      <br/>
+
+      <p>Competitors will be allowed to enter either or both tracks and
+      rankings and prizes will be given for each track. They will be compared
+      on each layout to optimize according to the energy output for the first
+      track and the number of turbines implanted on the second track (and
+      energy output for ex-aequo) and ranked with point system:
+
+      <ul>
+        <li>10 points given to the best approach</li>
+        <li>6 points given to the second best approach</li>
+        <li>4 points to the third</li>
+        <li>3 points to the forth</li>
+        <li>2 points to the fifth</li>
+        <li>1 point to the sixth</li>
+      </ul>
+
+      <p>The winner of each track will be the one with the maximum of points.</p>
+
+      <!--
+      <p>The optimizer, with a compilation and/or execution readme file, will
+      have to be submitted on this website. The optimizer must be compatible
+      with a standard linux machine. The arguments of the programs are the list
+      of XML scenario file names and associated the number of turbine to
+      opmitize for the fixed number of turbine track or the minimal wake free
+      ratio for the variable number of turbine track. The optimizer must
+      display for each layout generated:</p>
+
+      <ul>
+        <li>the number of evaluations used to produce the layout,</li>
+        <li>the energy output of the final layout,</li>
+        <li>the number of turbines used on the layout.</li>
+      </ul>
+      -->
+
+    </div>
+
+    <hr/>
+
+    <div id="prize" class="row titre">
+
+      <h2>Prize</h2>
+
+      <p>We are doing our best to find a prize for each track of the
+      competition. If you are interested in sponsoring this competition, please
+      contact the competition organizers</p>
+
+    </div>
+
+    <hr/>
+
+    <div id="contacts" class="row titre">
+
+      <h2>Competition Organizers</h2>
+
+      <p><b>Sylvain Cussat-Blanc:</b> <a href="mailto:&#115;&#121;&#108;&#118;&#97;&#105;&#110;&#46;&#99;&#117;&#115;&#115;&#97;&#116;&#45;&#98;&#108;&#97;&#110;&#99;&#64;&#105;&#114;&#105;&#116;&#46;&#102;&#114;">&#115;&#121;&#108;&#118;&#97;&#105;&#110;&#46;&#99;&#117;&#115;&#115;&#97;&#116;&#45;&#98;&#108;&#97;&#110;&#99;&#64;&#105;&#114;&#105;&#116;&#46;&#102;&#114;</a></p>
+      <p><b>Dennis Wilson:</b> <a href="mailto:&#100;&#101;&#110;&#110;&#105;&#115;&#119;&#64;&#109;&#105;&#116;&#46;&#101;&#100;&#117;">&#100;&#101;&#110;&#110;&#105;&#115;&#119;&#64;&#109;&#105;&#116;&#46;&#101;&#100;&#117;</a></p>
+      <p><b>Kalyan Veeramachaneni:</b> <a href="mailto:&#107;&#97;&#108;&#121;&#97;&#110;&#64;&#99;&#115;&#97;&#105;&#108;&#46;&#109;&#105;&#116;&#46;&#101;&#100;&#117;">&#107;&#97;&#108;&#121;&#97;&#110;&#64;&#99;&#115;&#97;&#105;&#108;&#46;&#109;&#105;&#116;&#46;&#101;&#100;&#117;</a></p>
+
+    </div>
+
+    <div class="row titre">&nbsp;</div>
+
+  </div>
+
+  <div class="col-md-3"></div>
+  </div>
+
+</body>
+</html>

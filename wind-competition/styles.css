@@ -1,0 +1,88 @@
+/*****************************************************************************/
+/* CNRS                                                                      */
+/* Feuille de style Site Labos SHS                                           */
+/*                                                                           */
+/* W3C CSS2                                                                  */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs SHS                                                       */
+/* Orange       : #F09415 Titres cliquables, bordures des tableaux           */
+/* Orange foncé : #BE6E00 liens survolés                                     */
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs STIC                                                      */
+/* Bleu         : #04F707D Titres cliquables, bordures des tableaux          */
+/* Orange       : #FFBA00 liens survolés                                     */
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+body {
+  padding-top: 70px;
+  background-color: #FFFFFF;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #556268;
+}
+
+/*
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+*/
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 27px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 27px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titre {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+hr {
+  border-color: #A5B8C9;
+}
+
+a:link {
+  color: #556268;
+}
+
+a:visited {
+  color: #556268;
+}
+
+a:hover {
+  color: #FFBA00;
+}
+
+h1 {color: #A5B8C9; text-align: center;}
+h2 {color: #FF9900; text-align: center;} /* Orange vif */
+h3 {color: #E37906;} /* Orange foncé */
+h4 {color: #5D8BA2;} /* Même gris que le fond des menus de niveau 2 et 3 */
+h5 {color: #556268;} /* Même gris que le texte */

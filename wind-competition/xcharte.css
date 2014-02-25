@@ -1,0 +1,341 @@
+/*****************************************************************************/
+/* CNRS                                                                      */
+/* Feuille de style Site Labos SHS     							             */
+/*                                                                           */
+/* W3C CSS2                                                                  */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs                                                           */
+/* Orange       : #F09415 Titres cliquables, bordures des tableaux           */ 
+/* Orange foncé : #BE6E00 liens survolés                                     */ 
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */ 
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs STIC                                                       */
+/* Bleu         : #4F707D Titres cliquables, bordures des tableaux           */ 
+/* Orange       : #FFBA00 liens survolés                                     */ 
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */ 
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+/*****************************************************************************/     
+/* Bandeau de navigation haut                                               **/
+/*****************************************************************************/  
+
+td.Xnavhaut, td.Xnavhaut p
+          { 
+           font-size : 10px;color :#4F707D;
+           text-align: left;font-weight: bold;}
+td.Xnavhaut a:link,
+td.Xnavhaut a:visited
+          {color :#4F707D; text-decoration : none;}
+td.Xnavhaut a:hover
+          {color :#4F707D; text-decoration : none;}          
+#divnavhaut-nom-labo {
+	position:absolute;
+	left:5px;
+	top:25px;
+	z-index:1;
+	width:484px;
+	height: 60px;
+	visibility: visible;
+}
+
+#nom-labo-pages-perso {
+	position:absolute;
+	left:15px;
+	top:80px;
+	z-index:1;
+	width:484px;
+	height: 60px;
+	visibility: visible;
+}
+#divbandeau-version-texte { position:absolute;left:5px;top:5px;z-index:1; visibility: visible}
+
+/* Texte en haut à droite : liens */
+/*--------------------------------*/
+
+.bandeau-liens
+         {position:absolute;left:510px;top:13px;
+          font-family : Arial, Helvetica, sans-serif; font-size : 12px; 
+          vertical-align : top;
+          text-align: left; white-space: nowrap;}
+.bandeau-liens a:link, div.bandeau-liens a:visited, div.bandeau-liens a:hover 
+         {font-weight: bold; text-decoration:none; padding: 0 3px 0 3px;}
+.bandeau-liens img
+         {position:relative; bottom:-6px; border:none; margin:0; padding:0;}
+
+
+.bandeau-liens-perso
+         {position:absolute;left:680px;top:13px;
+          font-family : Arial, Helvetica, sans-serif; font-size : 12px; 
+          vertical-align : top;
+          text-align: left; white-space: nowrap;}
+.bandeau-liens-perso a:link, div.bandeau-liens-perso a:visited, div.bandeau-liens-perso a:hover 
+         {font-weight: bold; text-decoration:none; padding: 0 3px 0 3px;}
+.bandeau-liens-perso img
+         {position:relative; bottom:-6px; border:none; margin:0; padding:0;}
+
+  
+					
+/*****************************************************************************/     
+/* Bandeau de navigation gauche                                             **/
+/*****************************************************************************/  
+
+td.Xnavgauche, td.Xnavgauche p, td.XnavgaucheIcones
+          {font-size : 11px;}
+td.Xnavgauche p
+          {margin-top:0px;margin-bottom:0px}    
+td.Xnavgauche p.intertitre
+          {color: #A5B8C9; font-weight: bold; font-size : 12px;}   
+td.Xnavgauche p.intertitre a:link, 
+td.Xnavgauche p.intertitre a:visited 
+          {color: #4F707D; font-weight: bold;  
+           text-decoration : none; }
+td.Xnavgauche p.intertitre a:hover 
+          {color: #FFBA00; font-weight: bold;  
+           text-decoration : none; }             
+td.XnavgaucheIcones
+ 		  {vertical-align:bottom; }                         
+#divpartenaires {
+	position:absolute;
+	width:150px;
+	height:115px;
+	z-index:1;
+	left: 0px;
+	top: 66px;
+	visibility: visible;
+	border-top: 0px solid #FFBA00;
+}
+#divnavgauche-spec {
+	       position:absolute;left:0px;top:/* 450px*/  /* 495px*/ /* 552px */ /* 597px */ 619px ;z-index:1;
+	       width: 150px ;visibility: visible;}               
+#divnavgauche-searchLabo {
+	       position:absolute;left:11px;top:/* 565px  595px 575px*/ /* 525px */ /* 560px */ 605px;z-index:1;
+	       width:100px;visibility: visible;}
+#divnavgauche-search {
+               position:absolute;left:11px;top:/* 610px  640px*/ /* 620px*/ /* 655px*/ 710px;z-index:1;
+	       width:100px;visibility: visible;}
+	       
+#divnavgauche-searchLabo td
+          {font-size : 10px;}	
+	  
+#divnavgauche-search td
+          {font-size : 10px;}	
+	  	  				 
+input.BoiteRechercher {
+	font-size:10px;
+	width:80px;}   
+#boiterechercher {
+	position:absolute;
+	left:230px;
+	top:8px;
+	height:20px;
+	width:150px;
+	z-index:0;
+	border-width: 1pt;
+} 				
+
+#divnavgauche-map2 {
+               position:absolute;left:0px;top:/* 610px  720px 690px*/ /* 560px */ /* 600px*/ /* 645px */ 670px;z-index:1;
+	       visibility: visible;}
+	       					
+/*****************************************************************************/
+/* Une : navdroite                                                          **/
+/*****************************************************************************/
+td.Xnavdroite {
+	border-bottom-color: #FFBA00;
+	border-bottom-style:solid;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+}
+
+td.Xnavdroite, td.Xnavdroite p
+          {font-size : 11px;}  
+ 
+td.Xnavdroite p
+          {margin-top : 3px; margin-bottom : 0px; text-align: left;}       
+             
+td.Xnavdroite p.titre
+          {font-size : 14px; color: #556268; font-weight: bold; margin-bottom: 0px}
+	  
+
+                          		
+ /*****************************************************************************/
+/* Seconde : navdroite                                                      **/
+/*****************************************************************************/
+#divXnavdroite{ float : right ;
+		width : 135px;
+		padding-left:10px;
+		padding-bottom:10px;
+}
+
+td.Xscde-navdroite, td.Xscde-navdroite p
+         {
+	font-size : 11px;
+	font-weight:bold;
+	color : #A5B8C9;
+	} 
+                              
+td.Xscde-navdroite 
+          {
+	background-color : #FFFFFF;
+	vertical-align : top;
+	text-align: left;
+	border-bottom-color: #FFBA00;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+        border-left-color: #FFBA00;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+td.Xscde-navdroite p
+         { margin:0;}                            
+td.Xscde-navdroite  a:link, td.Xscde-navdroite  a:visited  
+         {color: #4F707D;text-decoration : none;}
+td.Xscde-navdroite a:hover
+          {color: #FFBA00;text-decoration : none;}          
+
+
+
+/*****************************************************************************/     
+/* Chemin de navigation pour les pages secondes                             **/
+/*****************************************************************************/  
+
+td.Xchemin
+        {color: #556268; vertical-align : middle}        
+                          
+td.Xchemin a:link, td.Xchemin a:visited
+        {color: #556268; text-decoration: none}  
+             
+td.Xchemin a:hover
+        {color: #FFBA00; text-decoration: none}       
+     
+/*****************************************************************************/     
+/* Menus en CSS                                                             **/
+/*****************************************************************************/  
+
+body {
+  /* WinIE behavior call */
+  behavior: url(http://www.irit.fr/styles/csshover.htc);
+}
+
+div#menu {
+  font-family : Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 0px;
+  top: /* 315px*/ 360px;
+  z-index: 1;
+  width: 150px;
+  border: solid 0px;
+  margin: 0;
+  background: #FFFFFF;
+}
+
+div#menu ul { 
+  margin: 0; 
+  padding: 0; 
+  list-style: none; 
+  width: 150px; 
+  background: #FFFFFF;
+  border: none;
+}
+
+div#menu ul.level1 {
+  border-top: 1px solid #FFBA00;
+}
+
+div#menu ul.level1 li {
+  position: relative; 
+  padding: 5px 6px 5px 6px;
+  border-bottom: 1px dashed #FFBA00;
+  width: 138px;
+}
+
+div#menu li a {
+  list-style: none; 
+  color: #4F707D;
+  display: block;
+  font-weight: bold;  
+  font-size : 12px;
+  text-decoration: none; 
+}
+
+div#menu li a:hover {
+  list-style: none; 
+  display: block;
+  color: #FFBA00;
+}
+
+
+div#menu>ul a {
+  width: auto;
+}
+
+div#menu ul ul {
+  position: absolute; 
+  list-style: none; 
+  top: 0; 
+  left: 150px;
+  display: none;
+  border: 1px solid #FFBA00;
+}
+
+div#menu ul.level2 { 
+  margin-top: -1px;
+}
+
+div#menu ul.level2 ul.level3 { 
+  background: #4F707D;
+  color: #FFFFFF;
+}
+
+div#menu ul.level2 li, ul.level3 li {
+  width: 140px;
+  background: #4F707D;
+  position: relative; 
+  padding: 5px 5px 5px 5px;
+  border-bottom: 0px; 
+}
+
+div#menu ul.level2 a, ul.level3 a { 
+  font-size: 8pt;
+  font-weight:normal;
+  color: #FFFFFF;
+}
+
+div#menu ul.level2 a:hover, ul.level3 a:hover { 
+  color: #FFBA00;
+}
+
+div#menu ul.level1 li:hover ul.level2, 
+div#menu ul.level2 li:hover ul.level3 {display:block;}
+         
+/*div#menu li:hover { */
+/*                     background: #EEE; */
+/* } */
+
+/* div#menu li.submenu { */
+/*                       color: #F09415; */
+/*                       font-weight: bold;   */
+/*                       font-size : 12px; */
+/*                       background: url(submenu.gif) 95% 50% no-repeat; */
+/* } */
+
+/* div#menu li.submenu:hover { */
+/*                             color: #BE6E00;                             */
+/*                             background-color: #FFF; */
+/* } */
+         
+      

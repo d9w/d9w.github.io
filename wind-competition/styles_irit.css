@@ -1,0 +1,346 @@
+/*****************************************************************************/
+/* CNRS                                                                      */
+/* Feuille de style Site Labos SHS								             */
+/*                                                                           */
+/* W3C CSS2                                                                  */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs SHS                                                       */
+/* Orange       : #F09415 Titres cliquables, bordures des tableaux           */ 
+/* Orange foncé : #BE6E00 liens survolés                                     */ 
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */ 
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*  Codes couleurs STIC                                                       */
+/* Bleu         : #04F707D Titres cliquables, bordures des tableaux           */ 
+/* Orange       : #FFBA00 liens survolés                                     */ 
+/* Gris foncé   : #556268 Texte courant, Titre des pages, Titre des          */ 
+/*                             grandes parties (A noter, etc                 */
+/* Gris clair   : #A5B8C9 Intertitres, Titres navdroite non cliquables       */
+/*                             Titres navgauche non cliquable                */
+/* Blanc        : #FFFFFF Fond de page                                       */
+/*****************************************************************************/
+
+/*surlignage de la recherche*/
+.spip_surligne { color : 000000; background-color: #D7D6D5; }
+
+body { margin : 0px;  background-color:#FFFFFF; 
+       font-family : Arial, Helvetica, sans-serif; font-size : 12px; 
+       color : #556268; } 
+
+hr   { color: #FFDD00 }
+
+hr.orange   { color: #FFBA00 }
+
+a:link  {color : #556268; text-decoration : underline; } 
+a:visited {color : #556268; text-decoration : underline; } 
+a:hover {color : #FFBA00; text-decoration : underline; } 
+
+table {
+    	border-collapse: collapse;
+      }   
+
+ul {list-style-position : outside; list-style-type:square; 
+    list-style-image:url('../images/boite-outils/puce.gif')}
+
+    
+                  
+p  {margin-top : 5px; margin-bottom : 9px; margin-left : 10px; margin-right : 10px;text-align: justify;} 
+td {text-align: left;}                     
+ul {margin-top : 5px; margin-bottom : 10px; }  
+
+ul ul li {font-size : 12px; 
+          color : #556268;}  
+  
+       
+/*****************************************************************************/  
+/* corps du site                                                            **/
+/*****************************************************************************/ 
+/* h2 {font-size : 12px; color : #4F707D;} */
+/* h2 {font-size : 14px; color : #FFBA00;}*/
+
+h1 {font-size : 18px; color : #FFBA00;}
+
+h2 {color: #FF9900;  font-size : 12px;} /* Orange vif */
+
+h3 {color: #E37906; font-size : 12px;} /* Orange foncé */
+h4 {color: #5D8BA2;} /* Même gris que le fond des menus de niveau 2 et 3 */
+h5 {color: #556268; font-size : 12px;} /* Même gris que le texte */
+
+td, p  
+          {font-family : Arial, Helvetica, sans-serif; font-size : 12px; 
+           color : #556268; 
+           vertical-align : top;
+          }
+
+		
+p.titre 
+          {font-size : 14px; color : #556268; font-weight: bold; margin-left : 0px;}
+
+span.petit, ul ul, p.petit
+          {font-size : 10px; color: #282828; }         
+
+p.intertitre_equipe
+          {color: #556268; font-weight: bold; 
+	   font-size : 13px; 
+	   margin-left : 0px; 
+	   background : url('../images/boite-outils/puce.gif') center left no-repeat;
+	   text-decoration : none;
+	   padding-left: 12px;
+	  } 
+	  
+p.intertitre_equipe a:link, p.intertitre_equipe a:visited
+          {
+	   text-decoration : none;
+	  } 
+	  
+p.intertitre_equipe a:hover
+          {
+	   color: #FFBA00; font-weight: bold;  font-size : 13px;
+           text-decoration : none;   
+	  } 
+                                
+p.intertitre_fonce
+          {color: #556268; font-weight: bold; font-size : 13px; margin-left : 0px;} 
+	             
+p.intertitre
+          {color: #A5B8C9; font-weight: bold; font-size : 13px; margin-left : 0px;} 
+                
+p.intertitre a:link, 
+p.intertitre a:visited 
+          {color: #4F707D; font-weight: bold;  font-size : 13px;
+           text-decoration : none; }
+           
+p.intertitre a:hover 
+          {color: #FFBA00; font-weight: bold;  font-size : 13px;
+           text-decoration : none; }  
+/* Sommaires de haut de pages, pages liste de liens - style à appliquer à une liste */		   
+
+ul.liste-liens a:link    {color : #4F707D; text-decoration : none; font-weight: bold;} 
+ul.liste-liens a:visited {color : #4F707D; text-decoration : none; font-weight: bold;} 
+ul.liste-liens a:hover   {color : #FFBA00; text-decoration : underline; font-weight: bold;}      
+
+table.liste-liens a:link    {color : #4F707D; text-decoration : none; font-weight: bold;} 
+table.liste-liens a:visited {color : #4F707D; text-decoration : none; font-weight: bold;} 
+table.liste-liens a:hover   {color : #FFBA00; text-decoration : underline; font-weight: bold;}                
+
+/* tableaux avec bordures, style à appliquer au tableau */
+table.table-avec-bordures, table.table-avec-bordures td, 
+table.table-avec-bordures th
+{
+	border-style : solid;
+	border-color : #FFBA00;
+	border-width : 1px;
+	border-collapse:collapse;
+}
+
+table.table-avec-bordures tr.fonce{
+	/* background:#ccffcc; */
+	background:#ffba00;
+	color: black;
+}
+
+table.table-avec-bordures td.clair{
+	background:#ffffcc; 
+	color: black;
+}    
+
+table.table-avec-bordures td.fonce{
+	/* background:#ccffcc; */
+	background:#ffba00;
+	color: black;
+}
+
+table.table-avec-bordures tr.clair{
+	background:#ffffcc; 
+	color: black;
+}    
+
+   
+table.table-avec-bordures th {
+	 font-size: 1.1em;
+}  
+
+
+
+
+
+
+      
+/* tableaux sans bordures dans un tableau avec bordures */
+table.table-sans-bordures, table.table-sans-bordures td,
+table.table-sans-bordures th {
+	border-width : 0px ;
+}        
+
+
+table.table-sans-bordures tr.fonce {
+	/* background:#ccffcc; */
+	background:#ffffff;
+	color: black;
+}
+
+table.table-sans-bordures tr.clair {
+	background:#ffffcc; 
+	color: black;
+}    
+
+
+table.spip, table.spip td { 
+	border-style : solid;
+	border-color : #FFBA00;
+	border-width : 1px;
+	border-collapse:collapse;
+}              
+          
+/*****************************************************************************/  
+td.separateur { background-color: #FFDD00; }
+/*****************************************************************************/  
+
+/*--- Styles IRIT ---*/ 
+table.couleur {
+	/* width: 90%; */
+	border-spacing: 4px;
+	border: solid 1px #ffba00;
+	padding: 3px;
+	font-size: 1em;
+	text-align: left;
+	border-collapse:collapse;
+	/* margin-left: 30px; */
+}
+
+table.couleur tr.fonce{
+	/* background:#ccffcc; */
+	background:#ffba00;
+	color: black;
+}
+
+table.couleur td.clair{
+	background:#ffffcc; 
+	color: black;
+}    
+
+table.couleur td.fonce{
+	/* background:#ccffcc; */
+	background:#ffba00;
+	color: black;
+}
+
+table.couleur tr.clair{
+	background:#ffffcc; 
+	color: black;
+}    
+
+   
+table.couleur th {
+	 font-size: 1.1em;
+}  
+
+.intertitre_orange {
+	font-size : 12px; 
+	font-weight: bold;
+	color : #E37906;
+	margin-top: 8px;
+}
+
+.orange_petit {
+	font-size : 12px; 
+	font-weight: bold;
+	color : #FFBA00;
+	margin-top: 2px;
+}
+
+
+p.intertitre_orange
+          {color: #E37906; font-weight: bold; font-size : 12px; margin-left : 0px;} 
+                
+p.intertitre_orange a:link, 
+p.intertitre_orange a:visited 
+          {color: /* #4F707D*/ #FFBA00; font-weight: bold;  font-size : 13px;
+           text-decoration : none; }
+           
+p.intertitre_orange a:hover 
+          {color: #FFBA00; font-weight: bold;  font-size : 13px;
+           text-decoration : none; }  
+
+ul.intertitre_orange {list-style-position : outside; list-style-type:square; 
+    list-style-image:url('../images/boite-outils/puce.gif')}
+
+p.orange
+          {color: #FFBA00; font-weight: bold; font-size : 12px; margin-left : 0px;} 
+                
+p.orange a:link, 
+p.orange a:visited 
+          {color: /* #4F707D*/ #FFBA00; font-weight: bold;  font-size : 12px;
+           text-decoration : none; }
+           
+p.orange a:hover 
+          {color: #FFBA00; font-weight: bold;  font-size : 12px;
+           text-decoration : none; }  
+	       
+.message_ok {
+font-size : 0.8em; 
+font-weight: bold;
+text-align: center;
+color : #66cc66; 
+background : #ffffff; 
+padding: 2px;
+border : solid 0px #ffcc99;
+}
+
+.message_erreur {
+font-size : 0.8em; 
+font-weight: bold;
+text-align: center;
+color : #cc3333; 
+background : url("images/local/attention.gif") top left no-repeat;
+padding: 4px;
+border : dotted 1px #cc3333;
+}
+
+.stabilo {
+color : #000000; 
+background : #ffffcc; 
+padding: 2px;
+border : solid 0px #ffcc99;
+}
+
+
+.stabilo_titre {
+font-size : 14px; 
+color : #556268; 
+font-weight: bold; 
+margin-left : 0px;
+background : #ffffcc; 
+padding: 2px;
+padding-left: 10px;
+border : solid 0px #ffcc99;
+}
+
+
+.petit {
+font-size : 0.9em; 
+}
+
+/*****************************************************************************/  
+/* Test                                                                      */
+/*****************************************************************************/  
+.divdecale {
+  	position: relative; 
+	left:30px;
+	border : solid 0px #ffcc99;
+}
+
+#navigation ul{
+	list-style:none;
+}
+
+#navigation li{
+	display: inline;
+	padding:0 20px 0 0;
