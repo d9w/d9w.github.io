@@ -1,0 +1,64 @@
+/*****************************************************************************/
+/* Theme Colors                                                              */
+/* Off-white    : #F9F3E3                                                    */
+/* Gray         : #CFC8B5                                                    */
+/* Red:         : #008913                                                    */
+/* Blue         : #0059ba                                                    */
+/*****************************************************************************/
+
+body {
+  padding-top: 70px;
+  background-color: #FFF;
+  color: black;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+  max-width: 768px;
+}
+
+.row {
+  padding-bottom: 70px;
+}
+
+/*.text{*/
+/*  padding: 30px;*/
+.well{
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  background-image: none;
+  background-color: #f8f8f8;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: #008913;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #008913;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0059ba;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {color: #0059ba;}
+h2 {color: #000;}
