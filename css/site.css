@@ -32,3 +32,19 @@ ul {
     margin: 0;
     width: 75%;
 }
+
+.icon {
+    font-size:3em;
+    color:black;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon:hover {
+    transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -webkit-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+}
