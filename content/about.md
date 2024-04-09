@@ -1,99 +1,103 @@
 ---
-title: About Hugo XMin
-author: Yihui Xie
+title: About
+author: Dennis G. Wilson
 ---
 
-**XMin** is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the  [**blogdown**](https://github.com/rstudio/blogdown) book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal. In fact, this theme does not contain any JavaScript code at all, although on this example website I did introduce some JavaScript code (still relatively simple anyway). The theme does not contain any images, either, and is pretty much a plain-text theme.
+I am a researcher and educator in artificial intelligence and data science. My passion for both teaching and research drives my work at [ISAE-SUPAERO](https://www.isae-supaero.fr/fr/), where I hold an "enseignant-chercheur" [position](https://personnel.isae-supaero.fr/dennis-wilson) (Associate Professor equivalent). My research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. My doctoral studies at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/) focused on the evolution of design principles for artificial neural networks. Prior to that, I developed my passion for evolutionary strategies and development models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/), tackling the challenge of [optimizing wind farm layouts](https://www.irit.fr/wind-competition/). This experience solidified my passion for environmental applications, which currently drives my research on tackling [environmental challenges](https://hal.science/hal-04281530/document) in the face of climate change.
 
-The theme name "XMin" can be interpreted as "**X**ie's **Min**imal theme" (Xie is my last name) or "e**X**tremely **Min**imal theme".
+My complete CV follows. It is also available as a [PDF](https://d9w.github.io/cv.pdf).
 
-## `hugo.yaml` (the config file)
+<!-- Academic Positions -->
+## Academic Positions
 
-For this example site, I defined permalinks for two sections, `post` and `note`, so that the links to pages under these directories will contain the date info, e.g., `https://xmin.yihui.org/post/2016/02/14/a-plain-markdown-post/`. This is optional, and it is up to your personal taste of URLs.
+- **2019-present**: Associate Professor at ISAE-Supaero  
+  - Associate Professor of Artificial Intelligence and Data Science in the Learning, Decision, and Optimization group of the Complex Systems Engineering Department.
+- **2019**: Postdoctoral researcher at University of Toulouse  
+  - Research on the application of genetic programming to electrical grid crisis management
+- **2016-2019**: Lecturer at University of Toulouse  
+  - Teaching Master's classes in Machine Learning and Databases
+- **2011-2014**: Researcher at MIT Computer Science and Artificial Intelligence Lab, ALFA group  
+  - Optimization using distributed evolutionary algorithms and genetic regulatory networks and data classification with genetic algorithms, advised by Kalyan Veeramachaneni and Una-May O'Reilly
 
-```yaml
-permalinks:
-  note: "/note/:year/:month/:day/:slug/"
-  post: "/post/:year/:month/:day/:slug/"
-```
+<!-- Industry Experience -->
+## Industry Experience
 
-You can define the menu through `menu.main`, e.g.,
+- **2019-2021**: Co-Founder at Nautilia Computing, Toulouse, France  
+  - Artificial Intelligence consulting and services for environment observation and simulation
+- **2014-2016**: Software engineer at Infinidat LTD, Israel  
+  - Full-time position in infrastructure development for data storage systems
 
-```yaml
-menu:
-  main:
-    - name: Home
-      url: ""
-      weight: 1
-    - name: About
-      url: "about/"
-      weight: 2
-    - name: Categories
-      url: "categories/"
-      weight: 3
-    - name: Tags
-      url: "tags/"
-      weight: 4
-    - name: Subscribe
-      url: "index.xml"
-```
+<!-- Education -->
+## Education
 
-Alternatively, you can add `menu: main` to the YAML metadata of any of your pages, so that these pages will appear in the menu.
+- **2016-2019**: PhD in the REVA team, IRIT, University of Toulouse, France  
+  - "Evolving Principles of Artificial Neural Design," advised by Sylvain Cussat-Blanc and Hervé Luga
+- **2010-2014**: BSci in Electrical Engineering and Computer Science, MIT, Cambridge, USA
 
-The page footer can be defined in `.Params.footer`, and the text is treated as Markdown, e.g.,
+<!-- Teaching -->
+## Teaching
 
-```
-params:
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- {Year}"
-```
+- **2020-present**: Evolutionary Computation, ISAE-Supaero  
+  - 30-hour Master's level course on evolutionary algorithms and genetic programming
+- **2019-present**: Artificial Intelligence and Data Science, ISAE-Supaero  
+  - Head of a 240-hour Master's level program on AI and data science with 60 students
+- **2018-2019**: Computational Intelligence, Lecturer, University of Toulouse
+- **2016-2018**: Databases, Lecturer, University of Toulouse
+- **2014**: Introduction to Python, Teaching Assistant, MIT
 
-Here `{Year}` means the year in which the site is built (usually the current year).
+<!-- Advising -->
+## Advising
 
-## Custom layouts
+- **2023-present**: Camilo de la Torre  
+  - PhD in symbolic regression for image analysis, with IRIT
+- **2023-present**: Estelle Chigot  
+  - PhD in generative AI for learning with synthetic data, with ANITI and Airbus
+- **2022-present**: Paul-Antoine le Tolguenec  
+  - PhD in reinforcement learning for autopilot testing, with ANITI and Airbus
+- **2021-2023**: Valerii Sukhorukov  
+  - Postdoctoral research in modeling neural cultures with ANNs, with IRIT
+- **2021-2022**: Erwan Lecarpentier  
+  - Postdoctoral research in genetic programming for interpretable control, with IRT and IRIT
+- **2021-present**: Paul Templier  
+  - PhD in evolutionary strategies for neuroevolution
+- **2020-2023**: Mahmoud Al Najar  
+  - PhD in AI for coastal geography estimation and forecasting, with the CNES and IRD
+- **2020-2023**: Kaitlin Maile  
+  - PhD in developmental neural networks, with IRIT
 
-There are two layout files under `layouts/partials/` that you may want to override: `head_custom.html` and `foot_custom.html`. This is how you inject arbitrary HTML code to the head and foot areas. For example, this site has a file `layouts/partials/foot_custom.html` to support LaTeX math via KaTeX and center images automatically:
+<!-- Grants, Honors & Awards -->
+## Grants, Honors & Awards
 
-```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-<script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
+- **2022**: CIFRE thesis grant with Airbus
+- **2021**: CIFRE thesis grant with ANITI and Airbus
+- **2020**: Winner, GECCO competition on agent control in DOTA
+- **2020**: SIGEVO Best Dissertation Award
+- **2019**: Thesis grant from the CNES on shoreline forecasting
+- **2019**: Thesis grant from La Région Occitaine and ISAE-Supaero on neuroevolution
+- **2017**: SIGEVO student representative, ACM Turing Award Celebration
+- **2017**: Winner, SIGAI Essay Contest on Ethics and AI
+- **2015**: CIMI Doctoral Fellowship recipient, France
+- **2013**: Best paper nomination, GECCO 2013 GDS track
 
-<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
-```
+<!-- Invited Talks -->
+## Invited Talks
 
-You can certainly enable highlight.js for syntax highlighting by yourself through `head_custom.html` and `foot_custom.html` if you want.
+- **2023**: Impact of AI on Education, ANITI 2023
+- **2023**: Keynote, Evolutionary Reinforcement Learning Workshop, GECCO 2023
+- **2021**: Evolutionary Reinforcement Learning, Reinforcement Learning Virtual School
+- **2018**: Julia for Machine Learning, ANF APSEM 2018, CNRS, Toulouse
+- **2018**: Evolving simple programs for playing Atari games, IT University of Copenhagen
+- **2017**: Evolving neural programs for continuous learning, CSAIL, MIT
 
-If you do not like the default fonts (e.g., `Palatino`), you may provide your own `static/css/fonts.css` under the root directory of your website to override the `fonts.css` in the theme.
+<!-- Organizational Roles -->
+## Organizational Roles
 
-## Other features
-
-I could have added more features to this theme, but I decided not to, since I have no intention to make this theme feature-rich. However, I will teach you how. I have prepared several examples via pull requests at https://github.com/yihui/hugo-xmin/pulls, so that you can see the implementations of these features when you check out the diffs in the pull requests. For example, you can:
-
-- [Enable Google Analytics](https://github.com/yihui/hugo-xmin/pull/3)
-
-- [Enable Disqus comments](https://github.com/yihui/hugo-xmin/pull/4)
-
-- [Enable highlight.js for syntax highlighting of code blocks](https://github.com/yihui/hugo-xmin/pull/5)
-
-- [Display categories and tags on a page](https://github.com/yihui/hugo-xmin/pull/2)
-
-- [Add a table of contents](https://github.com/yihui/hugo-xmin/pull/7)
-
-- [Add a link in the footer of each page to "Edit this page" on Github](https://github.com/yihui/hugo-xmin/pull/6)
-
-To fully understand these examples, you have to read [the section on Hugo templates](https://bookdown.org/yihui/blogdown/templates.html) in the **blogdown** book.
-
-# Design philosophy
-
-Lastly, a few words about my design philosophy for this theme: I have been relying on existing frameworks like Bootstrap for years since I'm not really a designer, and I was always scared by the complexity of CSS.
-
-When I started writing this theme, I asked myself, "_What if I just write from scratch?_" No Bootstrap. No Normalize.css. I don't care about IE (life could be so much easier without IE) or inconsistencies among browsers (for personal websites). As long as the theme looks okay in Chrome, Firefox, and Safari, I'm done. Thanks to the simplicity of Markdown, you cannot really produce very complicated HTML, and I think styling the HTML output from Markdown is much simpler than general HTML documents. For example, I do not need to care much about form elements like textareas or buttons.
-
-After I finished this theme, I started to wonder why I'd need `normalize.css` at all. The default appearance of modern browsers actually looks pretty good in my eyes, after I tweak the typeface a little bit.
-
-Compared to inconsistencies across browsers, I care much more about these properties of HTML elements:
-
-- Tables should always be centered, and striped tables are easier to read especially when they are wide. Tables should not have vertical borders.
-- An image should be centered if it is the only child element of a paragraph.
-- The `max-width` of images, videos, and iframes should be `100%`.
-
-I hope you can enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-xmin). Happy hacking!
+- **present**: Reviewer for NeurIPS, ICLR, ICML, AAAI, IJCAI, GECCO, ACM TELO, IEEE TEVC, ECJ
+- **2022-present**: Organizer, Graph Genetic Programming Workshop
+- **2022-present**: Co-Chair, Gender Equality committee, ANITI
+- **2021-present**: Mentor, Climate Change AI Workshop
+- **2021-2023**: ISAE Representative, AI for the Environment Committee (ENVIA)
+- **2021-2022**: Secretary, ISAL Diversity, Equity, and Inclusion Committee
+- **2019-2021**: Chair, Complex Systems Track, GECCO
+- **2018-2020**: Organizer, Developmental Neural Networks Workshop
+- **2017-2018**: Communications Chair, ISAL Student group
