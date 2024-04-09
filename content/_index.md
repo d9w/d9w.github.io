@@ -4,7 +4,7 @@ title: Home
 
 # Dennis G. Wilson 
 
-Associate Professor of Artificial Intelligence and Data Science<br/> [ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson), University of Toulouse
+Associate Professor of Artificial Intelligence and Data Science<br/>[ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson), University of Toulouse
 
 I research [evolution](https://hal.archives-ouvertes.fr/hal-03305590/document) and [learning](https://arxiv.org/pdf/2202.08539) in [artificial systems](https://arxiv.org/pdf/1806.05695.pdf).
 
