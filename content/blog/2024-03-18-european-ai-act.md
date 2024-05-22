@@ -7,7 +7,10 @@ tags:
   - generative ai
   - legislation
   - biometrics
+  - newsletter
 ---
+
+(This post was also published on [Good Computer](https://goodcomputer.substack.com/p/european-ai-act).)
 
 > "Thou shalt not make a machine in the likeness of a human mind." - Frank Herbert, Dune
 

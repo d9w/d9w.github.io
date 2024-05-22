@@ -7,7 +7,10 @@ tags:
   - generative ai
   - language models
   - academia
+  - newsletter
 ---
+
+(This post was also published on [Good Computer](https://goodcomputer.substack.com/p/will-ai-destroy-science-or-solve).)
 
 Is AI the new way to do science, or is AI destroying science? This question was shoved into the spotlight again last week after some very ill-advised uses AI-generated content in research papers came to light. In this blog post, I'll take a look at the current state of AI in science, focusing on LLMs in academic publishing, and argue that AI is not going to destroy science, nor is it going to solve it and replace all human researchers.
 
