@@ -1,5 +1,5 @@
 ---
-title: The Superalignment Problem
+title: The AI Superalignment Problem
 author: Dennis G. Wilson
 date: '2024-05-22'
 tags:
@@ -11,9 +11,9 @@ tags:
 
 (This post was also published on [Good Computer](https://goodcomputer.substack.com/p/the-superalignment-problem).)
 
-### And the problem with the superalignment problem
+### And the problem with the AI superalignment problem
 
-Last week, there were a number of doomsday headlines around [the departure](https://www.businessinsider.com/jan-leike-ilya-sutskever-resignations-superalignment-openai-superintelligence-safe-humanity-2024-5) of some high-level members of OpenAI who worked on "[superalignment](https://openai.com/index/introducing-superalignment/)." Aligning AI with human values has long been a important part of AI research, often termed ethical AI or simply useful AI. With the rise of large language models (LLMs), the concept of alignment has gained significant attention. In this post, I'll explore the definition of alignment, the current methods used in LLMs, and challenge the scope of the "superalignment" problem.
+Last week, there were a number of doomsday headlines around [the departure](https://www.businessinsider.com/jan-leike-ilya-sutskever-resignations-superalignment-openai-superintelligence-safe-humanity-2024-5) of some high-level members of OpenAI who worked on "[superalignment](https://openai.com/index/introducing-superalignment/)." Aligning AI with human values has long been a important part of AI research, often termed AI safety, ethical AI, or simply useful AI. AI systems can pose [significant risks](https://www.science.org/doi/10.1126/science.adn0117), so making sure that they are safe for humanity is paramount. With the rise of large language models (LLMs), the concept of "alignment" has been studied, leading to the proposed "superalignment" problem. In this post, I'll explore the definition of alignment, the current methods used in LLMs, and challenge the scope of the "superalignment" problem.
 
 **Understanding Alignment**
 
