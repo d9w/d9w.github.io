@@ -9,7 +9,7 @@ tags:
   newsletter
 ---
 
-(This post was also published on [Good Computer](https://goodcomputer.substack.com/p/the-superalignment-problem).)
+(This post was also published on [Good Computer](https://goodcomputer.substack.com/p/the-ai-superalignment-problem).)
 
 ### And the problem with the AI superalignment problem
 
