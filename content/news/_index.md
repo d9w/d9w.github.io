@@ -6,4 +6,4 @@ I write a [newsletter](https://goodcomputer.substack.com/) on the good and bad s
 
 [Subscribe via RSS](/index.xml)
 
-## Latest Posts
+## Posts
