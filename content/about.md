@@ -3,7 +3,7 @@ title: About
 author: Dennis G. Wilson
 ---
 
-I am a researcher and educator in artificial intelligence and data science. My passion for both teaching and research drives my work at [ISAE-SUPAERO](https://www.isae-supaero.fr/fr/), where I hold an "enseignant-chercheur" [position](https://personnel.isae-supaero.fr/dennis-wilson) (Associate Professor equivalent). My research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. My doctoral studies at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/) focused on the evolution of design principles for artificial neural networks. Prior to that, I developed my passion for evolutionary strategies and development models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/), tackling the challenge of [optimizing wind farm layouts](https://www.irit.fr/wind-competition/). This experience solidified my passion for environmental applications, which currently drives my research on tackling [environmental challenges](https://hal.science/hal-04281530/document) in the face of climate change.
+I am a researcher and educator in artificial intelligence and data science. I am an ["enseignant-chercheur"](https://personnel.isae-supaero.fr/dennis-wilson) (Associate Professor equivalent) at [ISAE-SUPAERO](https://www.isae-supaero.fr/fr/). My research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. My doctoral studies at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/) focused on the evolution of design principles for artificial neural networks. Prior to that, I developed my passion for evolutionary strategies and development models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/), working on [optimizing wind farm layouts](https://www.irit.fr/wind-competition/). I am interested in environmental applications of AI, which currently drives my research on using AI to [help accelerate environmental science](https://hal.science/hal-04281530/document) in the face of climate change.
 
 My complete CV follows. It is also available as a [PDF](https://d9w.github.io/cv.pdf).
 
@@ -11,7 +11,7 @@ My complete CV follows. It is also available as a [PDF](https://d9w.github.io/cv
 ## Academic Positions
 
 - **2019-present**: Associate Professor at ISAE-Supaero  
-  - Associate Professor of Artificial Intelligence and Data Science in the Learning, Decision, and Optimization group of the Complex Systems Engineering Department.
+  - Associate Professor of Artificial Intelligence and Data Science in the Learning, Decision, and Optimization group of the Complex Systems Engineering Department
 - **2019**: Postdoctoral researcher at University of Toulouse  
   - Research on the application of genetic programming to electrical grid crisis management
 - **2016-2019**: Lecturer at University of Toulouse  

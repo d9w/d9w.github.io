@@ -9,7 +9,7 @@ footnotereturnlinkcontents: "↩"
 
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
-  blog: "/blog/:year/:month/:day/:slug/"
+  news: "/news/:year/:month/:day/:slug/"
 
 menu:
   main:
@@ -19,8 +19,8 @@ menu:
     - name: About
       url: "about/"
       weight: 2
-    - name: Blog
-      url: "blog/"
+    - name: News 
+      url: "news/"
       weight: 3
 
 params:

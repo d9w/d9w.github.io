@@ -9,7 +9,7 @@ tags:
 
 On November 30th, [Mahmoud al Najar](https://scholar.google.com/citations?user=jBmB07gAAAAJ) succesfully defended his PhD, entitled [Modelling coastal evolution with machine learning](https://theses.fr/2023ESAE0060) (abstract below) [^1]. Mahmoud was my first student, in the sense that we were working together as early as 2019, when he did an internship that led to his thesis. He tackled the challenging problem of interdisciplinary research with grace over his PhD, becoming an expert in both AI and coastal science. Mahmoud will be continuing his research as a postdoc at IRIT, working with [Ehouarn Simon](https://www.irit.fr/~Ehouarn.Simon/) on ML for oceanography. I'm looking forward to working with Mahmoud in the future on this important domain of accelerating the understanding of our changing climate with AI.
 
-[1] The only regret that I have about Mahmoud's thesis is that we chose to use the British spelling of "Modelling" with two l's...
+[^1]: The only regret that I have about Mahmoud's thesis is that we chose to use the British spelling of "Modelling" with two l's...
 
 ## Modelling coastal evolution with machine learning
 
