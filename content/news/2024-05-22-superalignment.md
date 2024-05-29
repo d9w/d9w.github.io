@@ -3,10 +3,10 @@ title: The AI Superalignment Problem
 author: Dennis G. Wilson
 date: '2024-05-22'
 tags:
-  LLM
-  generative ai
-  alignment
-  newsletter
+  - LLM
+  - generative ai
+  - alignment
+  - newsletter
 ---
 
 (This post was also published on [Good Computer](https://goodcomputer.substack.com/p/the-ai-superalignment-problem).)
