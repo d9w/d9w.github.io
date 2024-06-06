@@ -29,9 +29,7 @@ However, if users give their explicit consent to their data being used to train 
 
 Web scraping for AI training was always ethically unadvisable and often done with the excuse [that it was only for research](https://openreview.net/forum?id=M3Y74vmsMcY) and not for commercial products. In 2024, that argument is clearly false, and the shift towards big tech policies on AI training isn't surprising. However, this new trend of blanket agreements that user data can all be used for AI training is also concerning to me.
 
-First, this shift is happening with little true user consent. Users have reported that the opt-out form
-
- for Meta's new policy is incredibly [frustrating to fill out or even find](https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out), and most weren't aware of the new policy until the notification to European users last week. Reddit's decision to sell its user data is retroactive, meaning that the many years of user data already stored on the site will be sold without the consent of those users.
+First, this shift is happening with little true user consent. Users have reported that the opt-out form for Meta's new policy is incredibly [frustrating to fill out or even find](https://www.fastcompany.com/91132854/instagram-training-ai-on-your-data-its-nearly-impossible-to-opt-out), and most weren't aware of the new policy until the notification to European users last week. Reddit's decision to sell its user data is retroactive, meaning that the many years of user data already stored on the site will be sold without the consent of those users.
 
 Second, this shift will degrade data transparency. The one advantage of public databases like LAION is that they're public. Their contents can be studied, and the flaws revealed. A website that allows for searching the datasets, [Have I Been Trained](https://haveibeentrained.com/), has been fundamental in court cases to demonstrate privacy and copyright violations. With private datasets made of Instagram posts or Reddit comments (not all of which are public-facing), this transparency becomes much more difficult.
 
