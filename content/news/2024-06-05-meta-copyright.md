@@ -1,7 +1,7 @@
 ---
-title: Why Meta wants your Instagram posts for AI
+title: Meta wants to train AI on your data
 author: Dennis G. Wilson
-date: '2024-05-28'
+date: '2024-06-06'
 tags:
   - LLM
   - generative ai
