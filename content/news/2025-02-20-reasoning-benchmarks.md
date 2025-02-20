@@ -10,8 +10,6 @@ tags:
   - newsletter
 ---
 
-# What is reasoning in AI?
-
 Over the past couple of months, there has been a parade of "reasoning" models: [DeepSeek-R1](https://arxiv.org/abs/2501.12948), [OpenAI's o3](https://openai.com/index/openai-o3-mini/), [Alibaba's QwQ](https://qwenlm.github.io/blog/qwq-32b-preview/), and now [Grok 3](https://x.ai/blog/grok-3). Each announcement follows a similar pattern: impressive benchmark scores on math competitions, science exams, and coding challenges, with claims about moving closer to AGI. Just this week, Elon Musk announced Grok 3 as the "smartest AI on earth," using benchmarks on reasoning tasks. But what exactly do we mean when we talk about reasoning in AI?
 
 This question matters because reasoning has become the new frontier in AI development. The race to build models that can solve complex problems through step-by-step thinking has supplanted earlier focus around how large language models are, or how much information they could process. François Chollet's ARC Prize competition explicitly positioned reasoning as a "north star for AGI" development, backing it with a million dollar prize. Benchmarks based on academic competitions or standardized tests like AIME, MATH-500, and GPQA have become the gauntlet that every new AI model must pass through to prove its worth.
