@@ -17,10 +17,11 @@ The HDR process involved submitting a manuscript that synthesizes my research co
 Can algorithms help drive scientific discovery? My research explores this question through two complementary approaches: machine learning algorithms that systematically explore novel and creative solutions, and optimization methods that ensure these discoveries remain interpretable to human researchers. Through case studies in climate science, I demonstrate how these techniques can accelerate our understanding of complex phenomena like shoreline evolution and El Niño prediction. Finally, I propose a framework for how artificial intelligence can augment, rather than replace, human scientific reasoning.
 
 Jury:
-Claire Monteleoni, Rapporteuse
-Stéphane Doncieux, Rapporteur
-Bing Xue, Rapporteuse
-Marc Schoenauer, Examinateur
-Sylvain Cussat-Blanc, Référent
-Frédéric Dehais, Président
+
++ Claire Monteleoni, Rapporteuse
++ Stéphane Doncieux, Rapporteur
++ Bing Xue, Rapporteuse
++ Marc Schoenauer, Examinateur
++ Sylvain Cussat-Blanc, Référent
++ Frédéric Dehais, Président
 
