@@ -3,9 +3,9 @@ title: About
 author: Dennis G. Wilson
 ---
 
-I am a researcher and educator in artificial intelligence and data science. I am a full [Professor at ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson) (HDR and tenure in 2025). My research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. My doctoral studies at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/) focused on the evolution of design principles for artificial neural networks. Prior to that, I developed my passion for evolutionary strategies and developmental models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/). I am interested in environmental applications of AI, which currently drives my research on using AI to [help accelerate environmental science](https://hal.science/hal-04281530/document) in the face of climate change.
+Dennis G. Wilson is a [Professor at ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson) of artificial intelligence and data science. His research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. He earned his PhD at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/), focused on the evolution of design principles for artificial neural networks. Prior to that, he worked on evolutionary developmental models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/). His current work focuses on environmental applications of AI, specifically how AI can [help accelerate environmental science](https://hal.science/hal-04281530/document) in the face of climate change.
 
-My complete CV follows. It is also available as a [PDF](https://d9w.github.io/wilson_cv.pdf).
+A complete CV follows. It is also available as a [PDF](https://d9w.github.io/wilson_cv.pdf).
 
 <!-- Academic Positions -->
 ## Academic Positions
