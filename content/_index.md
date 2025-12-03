@@ -11,4 +11,3 @@ I research [evolution](https://dl.acm.org/doi/pdf/10.1145/3638529.3654047) and [
 I teach [data science](https://supaerodatascience.github.io/) and [evolutionary computation](https://d9w.github.io/evolution/).
 
 I work on applications in [climate change](https://hal.archives-ouvertes.fr/hal-03301306/document) and [renewable energy](https://dai.lids.mit.edu/wp-content/uploads/2018/06/wfloAll.pdf).
-
