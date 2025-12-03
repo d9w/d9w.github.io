@@ -6,7 +6,7 @@ title: Home
 
 Professor of Artificial Intelligence and Data Science<br/>[ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson), University of Toulouse
 
-I research [evolution](https://dl.acm.org/doi/pdf/10.1145/3638529.3654047) and [learning](https://arxiv.org/pdf/2202.08539) in [artificial systems](https://arxiv.org/pdf/1806.05695.pdf).
+I research [evolution](https://dl.acm.org/doi/pdf/10.1145/3638529.3654047) and [learning](https://arxiv.org/pdf/2202.08539) in [artificial systems](https://d9w.github.io/wilson_hdr.pdf).
 
 I teach [data science](https://supaerodatascience.github.io/) and [evolutionary computation](https://d9w.github.io/evolution/).
 
