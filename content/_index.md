@@ -4,7 +4,7 @@ title: Home
 
 # Dennis G. Wilson 
 
-Professor of Artificial Intelligence and Data Science<br/>[ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson), University of Toulouse
+Visiting Research Scientist at [Sakana AI](https://sakana.ai/), Tokyo<br/>Professor of Artificial Intelligence and Data Science at [ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson), University of Toulouse
 
 I research [evolution](https://dl.acm.org/doi/pdf/10.1145/3638529.3654047) and [learning](https://arxiv.org/pdf/2202.08539) in [artificial systems](https://d9w.github.io/wilson_hdr.pdf).
 

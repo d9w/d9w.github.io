@@ -3,13 +3,14 @@ title: About
 author: Dennis G. Wilson
 ---
 
-Dennis G. Wilson is a [Professor at ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson) of artificial intelligence and data science. His research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. He earned his PhD at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/), focused on the evolution of design principles for artificial neural networks. Prior to that, he worked on evolutionary developmental models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/). His current work focuses on interpretable machine learning, exploration in search and learning, and environmental applications of AI, specifically how AI can [help accelerate environmental science](https://d9w.github.io/wilson_hdr.pdf) in the face of climate change.
+Dennis G. Wilson is a Visiting Research Scientist at [Sakana AI](https://sakana.ai/) in Tokyo and a [Professor at ISAE-Supaero](https://personnel.isae-supaero.fr/dennis-wilson) of artificial intelligence and data science. His research is inspired by the many forms of biological intelligence, specifically through the study of evolutionary algorithms and neural networks. He earned his PhD at the [Institut de Recherche en Informatique de Toulouse (IRIT)](https://www.irit.fr/), focused on the evolution of design principles for artificial neural networks. Prior to that, he worked on evolutionary developmental models in the [Anyscale Learning For All group](https://alfagroup.csail.mit.edu/) at [CSAIL, MIT](https://www.csail.mit.edu/). His current work focuses on interpretable machine learning, exploration in search and learning, and environmental applications of AI, specifically how AI can [help accelerate environmental science](https://d9w.github.io/wilson_hdr.pdf) in the face of climate change.
 
 A complete CV follows. It is also available as a [PDF](https://d9w.github.io/wilson_cv.pdf).
 
 <!-- Academic Positions -->
 ## Academic Positions
 
+- **2026-present**: Visiting Research Scientist at [Sakana AI](https://sakana.ai/), Tokyo
 - **2019-present**: Professor at ISAE-Supaero
   - Associate Professor from 2019 to 2025, HDR and tenure in 2025
   - Professor of Artificial Intelligence and Data Science in the Learning, Decision, and Optimization group of the Complex Systems Engineering Department
@@ -194,7 +195,7 @@ I apply machine learning to accelerate environmental science in the face of clim
 ### Workshop and Conference Organization
 
 - **2026**: Co-Local Chair, [Evostar 2026](https://www.evostar.org/2026/)  
-  - Leading European event on bio-inspired AI, to be held in Toulouse in April 2026
+  - Leading European event on bio-inspired AI, held in Toulouse in April 2026
 - **2023-present**: Founder and organizer, [Graph-based Genetic Programming](https://graphgp.com/) workshop  
   - Hosted at international conferences (GECCO, ALIFE, PPSN)
 - **2024**: Organizer, [local workshop](https://d9w.github.io/TEML/) on Evolutionary Machine Learning, Toulouse
