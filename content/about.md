@@ -59,7 +59,7 @@ A complete CV follows. It is also available as a [PDF](https://d9w.github.io/wil
 <!-- Advising -->
 ## Advising
 
-I have co-advised 6 PhD students, 4 of which have now successfully defended. I have fully supervised one postdoctoral researcher, [Erwan Lecarpentier](https://scholar.google.com/citations?user=jFtlb0oAAAAJ&hl=en&oi=ao), and am currently co-supervising the postdoctoral research of [Giorgia Nadizar](https://giorgia-nadizar.github.io/). I have supervised 11 Master's students for their thesis projects and have served as academic advisor for approximately 10 Master's level final internships per year since 2020.
+I have co-advised 7 PhD students, 5 of which have now successfully defended. I have fully supervised one postdoctoral researcher, [Erwan Lecarpentier](https://scholar.google.com/citations?user=jFtlb0oAAAAJ&hl=en&oi=ao), and am currently co-supervising the postdoctoral research of [Giorgia Nadizar](https://giorgia-nadizar.github.io/). I have supervised 11 Master's students for their thesis projects and have served as academic advisor for approximately 10 Master's level final internships per year since 2020.
 
 ### Current PhD Students
 
@@ -67,13 +67,17 @@ I have co-advised 6 PhD students, 4 of which have now successfully defended. I h
   - PhD in hybridization between Cartesian Genetic Programming and specialized machine learning
   - Advisors: Sylvain Cussat-Blanc, Dennis G. Wilson, Hervé Luga
   - Financing: EDMITT scholarship
-- **2023-present**: [Estelle Chigot](https://www.linkedin.com/in/estelle-chigot/)  
-  - PhD in synthetic-to-real domain adaptation for object recognition
-  - Advisors: Thomas Oberlin, Dennis G. Wilson, Meriem Ghrib
-  - Financing: CIFRE with Airbus
+- **2026-present**: Grégoire Marie  
+  - Advisors: Alain Haït, Dennis G. Wilson
+  - Financing: CIFRE with LookUp Space
 
 ### Completed PhD Students
 
+- **2023-2026**: [Estelle Chigot](https://www.linkedin.com/in/estelle-chigot/)  
+  - Synthetic-to-Real Domain Adaptation for Object Recognition
+  - Advisors: Thomas Oberlin, Dennis G. Wilson, Meriem Ghrib
+  - Financing: CIFRE with Airbus
+  - Defended June 10, 2026
 - **2022-2025**: [Paul Antoine le Tolguenec](https://www.linkedin.com/in/paul-antoine-le-tolguenec-128b4018a/)  
   - [Exploration Methods for Reinforcement Learning Applied to Critical System Testing](https://theses.fr/2025ESAE0017)
   - Advisors: Emmanuel Rachelson, Dennis G. Wilson, Yann Besse
