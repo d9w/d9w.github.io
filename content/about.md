@@ -161,7 +161,7 @@ My work advances exploration techniques in both evolutionary algorithms and rein
 
 - **Quality with Just Enough Diversity in Evolutionary Policy Search** (GECCO 2024, Best Paper Award): Introduced a novel evolutionary policy search algorithm balancing exploration and exploitation for more robust and diverse policy generation
 - **Exploration-Driven Reinforcement Learning for Avionic System Fault Detection** (ISSTA 2024, SIGSOFT Distinguished Paper Award): Demonstrated that evolutionary exploration algorithms can detect faults in critical avionic systems not found by standard verification methods
-- **Exploration by Learning Diverse Skills through Successor State Measures** (NeurIPS 2024): Presented LEADS, an exploration algorithm leveraging successor state measures to learn diverse skills and enhance exploration in multi-task environments
+- **Exploration by Learning Diverse Skills through Successor State Representations** (NeurIPS 2024): Presented LEADS, an exploration algorithm leveraging successor state measures to learn diverse skills and enhance exploration in multi-task environments
 
 ### Machine Learning for Climate Science
 
