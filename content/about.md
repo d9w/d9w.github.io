@@ -74,7 +74,7 @@ I have co-advised 7 PhD students, 5 of which have now successfully defended. I h
 ### Completed PhD Students
 
 - **2023-2026**: [Estelle Chigot](https://www.linkedin.com/in/estelle-chigot/)  
-  - Synthetic-to-Real Domain Adaptation for Object Recognition
+  - [Image-Based Synthetic-to-Real Domain Adaptation for Robust Object Recognition](https://theses.fr/2026UTLSA021)
   - Advisors: Thomas Oberlin, Dennis G. Wilson, Meriem Ghrib
   - Financing: CIFRE with Airbus
   - Defended June 10, 2026
