@@ -9,8 +9,8 @@ tags:
 
 On June 10th 2026, [Estelle
 Chigot](https://www.linkedin.com/in/estelle-chigot/) successfully defended a
-PhD thesis entitled "Synthetic-to-Real Domain Adaptation for Object
-Recognition" (abstract below). This industrial (CIFRE) thesis with Airbus was
+PhD thesis entitled [Image-Based Synthetic-to-Real Domain Adaptation for Robust Object Recognition](https://theses.fr/2026UTLSA021)
+(abstract below). This industrial (CIFRE) thesis with Airbus was
 directed by Thomas Oberlin with my co-supervision and that of Meriem Ghrib and
 Manon Huguenin at Airbus. This thesis demonstrated how synthetic data could be
 used in computer vision pipelines in real applications, even the very
@@ -22,7 +22,7 @@ the writing of this post, Estelle is helping with teaching AI at ISAE-Supaero
 and is looking for research opportunities in computer vision and video games.
 I'm excited to see what she does next!
 
-## Synthetic-to-Real Domain Adaptation for Object Recognition
+## Image-Based Synthetic-to-Real Domain Adaptation for Robust Object Recognition
 
 Deep learning models for object recognition require large annotated datasets,
 which are costly and difficult to obtain for industrial applications. Synthetic
