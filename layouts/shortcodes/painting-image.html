@@ -1,0 +1,11 @@
+{{- $image := resources.Get (printf "paintings/indicia-ipsa-potestas-est/%s" (.Get "src")) -}}
+{{- $width := int (.Get "width" | default 800) -}}
+{{- $preview := $image.Resize (printf "%dx webp q85" (math.Min $width $image.Width | int)) -}}
+{{- $href := $image.RelPermalink -}}
+{{- with .Get "href" }}{{ $href = . | relURL }}{{ end -}}
+<figure class="painting-figure {{ .Get "class" }}">
+  <a href="{{ $href }}" aria-label="{{ .Get "linklabel" | default (.Get "alt") }}">
+    <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" alt="{{ .Get "alt" }}" loading="{{ .Get "loading" | default "lazy" }}" decoding="async"{{ if eq (.Get "loading") "eager" }} fetchpriority="high"{{ end }} />
+  </a>
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

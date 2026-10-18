@@ -1,0 +1,104 @@
+/* Loaded only for the painting post. Keep the rest of the site's layout. */
+body {
+  max-width: 1280px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.article-meta {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.article-meta .author,
+.article-meta .date {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+main > p,
+main > h2 {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > h2 {
+  margin-top: 2.5rem;
+}
+
+.painting-figure {
+  margin: 2rem 0;
+}
+
+.painting-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.painting-figure a {
+  display: block;
+}
+
+.painting-figure a:hover {
+  inset: 0;
+}
+
+.painting-figure a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+}
+
+.painting-figure figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.painting-study {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.painting-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.painting-gallery .painting-figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.painting-gallery img {
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  background: #1c160e;
+}
+
+.painting-gallery--landscape img {
+  aspect-ratio: 3 / 2;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 1rem;
+  }
+
+  .painting-gallery {
+    grid-template-columns: 1fr;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-meta h1 {
+    font-size: 1.7rem;
+  }
+}
